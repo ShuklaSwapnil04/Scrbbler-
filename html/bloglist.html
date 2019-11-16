@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href='..\css\bloglist.css' rel='stylesheet' type='text/css'>    
+    <link href='..\css\header.css' rel='stylesheet' type='text/css'>
+    <link href='..\css\font.css' rel='stylesheet' type='text/css'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<script src="https://kit.fontawesome.com/197f87237f.js" crossorigin="anonymous"></script>
+    <style>
+    </style>
+</head>
+<body style="background-color: orange">
+    <div id="main-container-div">
+
+        <div class="header">
+
+            <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading --> 
+            <div id="h-heading">
+				<p id="scr">ScriBBler</p><p id="eic">Explore . Imagine . Create</p>
+			</div>
+			<div id="h-btns">
+				<button onclick="signInAction()">Sign In</button>
+				<button onclick="signUpAction()">Sign Up</button>
+			</div>
+              </div> 
+            </div>
+
+        <!-- Insert code for Sign In modal here -->
+		<div id="myModal" class="modal2">
+  		<!-- Modal content -->
+		  <div class="modal-content">
+			<span onclick="closee()" class="close">&times;</span>
+			<p style="color: black">Welcome Back!</p><br>
+			<hr>
+			<form method="post">
+			  <label>Username</label><br>
+			  <input type="text" placeholder="   Enter Username" style="margin-bottom: 0px; margin-top: 0px" required><br>
+			  <label>Password</label><br>
+			  <input type="password" placeholder="   Enter Password" required><br>
+			  <button class="s-in-btn">Sign in</button>
+			  </form>
+			  <p style="color: black" id="notMember">Not a Member? <a href="#" onclick="signUpClk()">Sign up</a></p>
+		  </div>
+		</div>
+  
+
+        <!-- Insert code for Sign Up modal here -->
+        <div id="myModal" class="modal1">
+  		<!-- Modal content -->
+		  <div class="modal-content">
+			<span onclick="closee()" class="close">&times;</span>
+			<p style="color: black">Get Started</p><br>
+			<hr>
+			<form method="post">
+			  <label class="label">Full Name</label><br>
+			  <input type="text" placeholder="   Enter Full Name" required><br>
+			  <label style="margin-bottom: 5px">Username</label><br>
+			  <input style="margin-bottom: 5px" type="text" placeholder="   Enter Username" required><br>
+			  <label style="margin-bottom: 5px">Password</label><br>
+			  <input style="margin-bottom: 5px" type="password" placeholder="   Enter Password" required><br>
+			  <label style="margin-bottom: 5px">Confirm Password</label><br>
+			  <input style="margin-bottom: 5px" type="password" placeholder="   Confirm Password" required><br>
+			  <button style="margin-bottom: 5px" class="s-up-btn">Sign Up</button>
+			</form>
+		  </div>
+		</div>
+
+
+    <div class="allPostsContainer">
+    <div class="post">
+        <div class="post-left">
+            <p class="post-username">Jimi</p>
+        </div>
+        <div class="post-content">
+
+            <!-- Insert code for Trash icon here -->
+			<div class="i-p">
+            <i style="cursor: pointer" onclick="openModal()" class="fa fa-trash" id="bind"></i>
+
+            <p class="post-title">Hello there ! This is Post 1. </p>
+			</div>
+			
+            <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had</p>
+
+            <!-- Insert code for ... icon here -->
+            <a href="post.html"><i class="fas fa-ellipsis-h"></i></a>
+        </div>
+    </div>
+
+    <div class="post">
+        <div class="post-left">
+            <p class="post-username">Jimi</p>
+        </div>
+        <div class="post-content">
+
+            <!-- Insert code for Trash icon here -->
+			<div class="i-p">
+            <i style="cursor: pointer" onclick="openModal()" class="fa fa-trash" id="bind"></i>
+
+            <p class="post-title">Hello there ! This is Post 1. </p>
+			</div>
+			
+            <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had</p>
+
+            <!-- Insert code for ... icon here -->
+            <a href="post.html"><i class="fas fa-ellipsis-h"></i></a>
+        </div>
+    </div>
+
+
+    <div class="post">
+        <div class="post-left">
+            <p class="post-username">Jimi</p>
+        </div>
+        <div class="post-content">
+
+            <!-- Insert code for Trash icon here -->
+			<div class="i-p">
+            <i style="cursor: pointer" onclick="openModal()" class="fa fa-trash" id="bind"></i>
+
+            <p class="post-title">Hello there ! This is Post 1. </p>
+			</div>
+			
+            <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had</p>
+
+            <!-- Insert code for ... icon here -->
+            <a href="post.html"><i class="fas fa-ellipsis-h"></i></a>
+        </div>
+    </div>
+		
+    <div class="post">
+        <div class="post-left">
+            <p class="post-username">Jimi</p>
+        </div>
+        <div class="post-content">
+
+            <!-- Insert code for Trash icon here -->
+			<div class="i-p">
+            <i style="cursor: pointer" onclick="openModal()" class="fa fa-trash" id="bind"></i>
+
+            <p class="post-title">Hello there ! This is Post 1. </p>
+			</div>
+			
+            <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had</p>
+
+            <!-- Insert code for ... icon here -->
+            <a href="post.html"><i class="fas fa-ellipsis-h"></i></a>
+        </div>
+    </div>
+		
+    <div class="post" id="five">
+        <div class="post-left">
+            <p class="post-username">Jimi</p>
+        </div>
+        <div class="post-content">
+
+            <!-- Insert code for Trash icon here -->
+			<div class="i-p">
+            <i style="cursor: pointer" onclick="openModal()" class="fa fa-trash" id="bind"></i>
+
+            <p class="post-title">Hello there ! This is Post 1. </p>
+			</div>
+			
+            <p class="post-desc">Jimi Hendrix was arguably the greatest instrumentalist in the history of rock music.[1] Hendrix expanded the range and vocabulary of the electric guitar into areas no musician had</p>
+
+            <!-- Insert code for ... icon here -->
+            <a href="post.html"><i class="fas fa-ellipsis-h"></i></a>
+        </div>
+    </div>
+
+
+            <!-- Insert code for delete modal here -->
+<div id="myModalnew" class="modalnew">
+
+  <!-- Modal content -->
+  <div class="modal-contentnew">
+	  <center><h4 id="sure">Are you sure you want to delete this post</h4></center>
+    <div id="btns"><center>
+    <button id="ya">Yes</button>
+    <button id="na" onclick="closeModal()">No</button>
+		</center>
+    </div>
+  </div>
+
+</div>
+		
+	</div>
+    <!-- end -->
+            
+        
+        
+
+    <script src="..\js\bloglist.js">  </script>
+    <script src="..\js\header.js"> </script>
+</body>
+
+</html>

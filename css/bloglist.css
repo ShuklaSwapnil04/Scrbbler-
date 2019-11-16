@@ -1,0 +1,253 @@
+.post {
+    position: relative;
+    width: 45%;
+    height: 50%;
+    background: #fff;
+    box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
+    margin: 10px 10px 10px 20px;
+    float:left;
+    border-radius: 10px;
+}
+    
+.post-left {
+        width: 15%;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        font-weight: bold;
+        color: #000;
+}
+.post-content {
+        width: 70%;
+        display: table-cell;
+        text-align: left;
+        background-color: #E8E8E8;
+        color: #000000;
+        border-radius: 0 15px 15px 0;
+        padding: 0px 10px; 
+		padding-bottom: 0px;
+/*        margin-left: !important;
+        margin-right: !important;
+        overflow: hidden !important;
+        overflow-x: hidden !important;
+        overflow-y: hidden !important; */    
+}
+i{
+	margin-left: 96%;
+	font-size: 18px;
+}
+.post-desc{
+	overflow: hidden;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+.post-title{
+    font-family: 'Itim', cursive;
+    font-weight: bold;
+    color: #2b312b;
+    font-size: 25px;
+    height: 25px;
+    }
+.post-more {
+    float: right;
+    cursor: pointer;
+    font-size: 18px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+.i-p{
+	display: flex;
+}
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0 !important;
+    color: #fff;
+    background-color: orange;
+    background-size: 2000% 2000%;
+}
+.allPostsContainer {
+    height: 100%;
+    width: 100%;
+
+}
+#five{
+   left: 25%;
+   position: relative;
+}
+#bind{
+    position:absolute;
+    right:15px;
+    top:15px;
+}
+#bars{
+    position:absolute;
+    right:15px;
+    bottom:15px;
+}
+#ya
+{
+    background-color: red;
+    color: white;
+    border-color: transparent;
+    padding: 5px 10px;
+    width: 100px;
+	position: absolute;
+	left: 37%;
+}
+#btns{
+    
+}
+#na
+{
+    font-family: 'Ubuntu Condensed';
+    background-color: green;
+    color: white;
+    border-color: transparent;
+    padding: 5px 10px;
+    width: 100px;
+	position: absolute;
+	right: 37%;
+}
+#sure
+{
+    font-family: 'Ubuntu Condensed';
+    color: black;
+}
+/********************************************************************/
+
+/**************************************************************/
+.modalnew {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-contentnew {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+	height: 19%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+form{
+   border-top: 1px solid black;
+   width: 90%;
+   position: relative;
+   left: 50%;
+   transform: translate(-50%);
+   top:0px;
+   padding: 0%;
+   margin: 0%;
+ }
+ @font-face {
+   font-family: 'Josefin Sans';
+   font-style: normal;
+   font-weight: 400;
+   src: local('Josefin Sans Regular'), local('JosefinSans-Regular'), url(JosefinSans-Regular.ttf) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+ input[type=text]
+ {
+   width: 100%;
+   padding: 10px;
+   border: none;
+   background-color: #f1f1f1;
+ }
+ input[type=password]
+ {
+   width: 100%;
+   padding: 10px;
+   border: none;
+   background-color: #f1f1f1;
+ }
+ #head1{
+   font-family: 'Josefin Sans';
+   font-weight: 500;
+   text-align: center;
+   color: black;
+ }
+ .sh6{
+   font-family: 'Josefin Sans';
+   font-weight: 500;
+ 
+ }
+ #sub1{
+   background-color: #4ae86f;
+   color: white;
+   text-align: center;
+   position: relative;
+   width: 100%;
+   padding: 15px;
+   top: 5px;
+   left: 50%;
+   transform: translate(-50%);
+ }
+ #nm{
+   text-align: center;
+   bottom:0%;
+   color: black;
+}
+#redirect{
+   color: blue;
+
+}
+.allPostsContainer{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

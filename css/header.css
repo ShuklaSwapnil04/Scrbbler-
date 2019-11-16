@@ -1,0 +1,120 @@
+/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
+the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+.header{
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+.header #h-btns button{
+	background-color: blue;
+	color: white;
+	height: 35px;
+	width: 85px;
+}
+.header p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+/*--------Sign up modal----------*/
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 400px; /* Could be more or less, depending on screen size */
+  height: 440px;
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content hr{
+	margin: 0px;
+	margin-bottom: 30px;
+}
+input{
+	margin-bottom:15px;
+	padding-top: 0px;
+	height: 39px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.1);
+	border: 0px;
+}
+.s-up-btn{
+	height: 39px;
+	width: 100%;
+	color: white;
+	background-color: forestgreen;
+	border: 0px;
+}
+
+
+
+/*--------Sign up modal----------*/
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+.modal2 .modal-content {
+  background-color: #fefefe;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 350px; /* Could be more or less, depending on screen size */
+  height: 400px;
+}
+.modal2 input{
+	margin-bottom: 35px;
+	margin-top: 10px;
+}
+.s-in-btn{
+	height: 39px;
+	width: 100%;
+	color: white;
+	background-color: forestgreen;
+	border: 0px;
+	margin-top: 5px;
+	margin-bottom: 21px;
+}
+#notMember{
+	font-family: serif;
+	font-size: 20px;
+}
+#notMember a{
+	text-decoration: none;
+}
+
